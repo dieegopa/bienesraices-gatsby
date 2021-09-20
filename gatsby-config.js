@@ -33,7 +33,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `http://localhost:3001`,
+        apiURL: `https://powerful-sea-09718.herokuapp.com`,
         queryLimit: 1000, // Defaults to 100
         collectionTypes: [`propiedades`, `paginas`, `categorias`],
       },
